@@ -1,4 +1,4 @@
-![图片](https://user-images.githubusercontent.com/22969665/149096473-98f7b19d-2692-43d4-a628-b582727240e1.png)
+<img src="https://i.imgur.com/qI1Jfyl.gif"  width="60%"/>
 
 # apriltag
 apriltag的检测实现的ROS包，无需进行安装
@@ -27,7 +27,7 @@ roslaunch apriltag_detector usb_cam_apriltags.launch
 ## apriltag_msgs
 
 apriltag ros messages
-
+<img align="right" src="https://i.imgur.com/BzOnbkS.gif" />
 # aprilTAg生成
 官方提供的AprilTag 3系列的所有标签的图像：https://github.com/AprilRobotics/apriltag-imgs
 # 方法一，通过alltags.ps生成全部的高清AprilTag标签图片
