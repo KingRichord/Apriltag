@@ -1,0 +1,8 @@
+prefix=/home/moi/3_ws/src/cam/Deepblue_tag/apriltag_detector/cmake-build-debug/devel
+
+Name: apriltag_detector
+Description: Description of apriltag_detector
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
