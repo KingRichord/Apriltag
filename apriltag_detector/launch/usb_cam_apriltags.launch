@@ -17,9 +17,9 @@
     <param name="~debug" value="false" />
 
     <!--相机的topic-->
-    <param name="camera_topic" value="/usb_cam/image_raw" />
+    <param name="~camera_topic" value="/usb_cam/image_raw" />
     <!--相机的参数topic-->
-    <param name="camera_info" value="/usb_cam/camera_info" />
+    <param name="~camera_info" value="/usb_cam/camera_info" />
     <!--是否显示UI-->
     <param name="~display_type" value="CUBE" />
     <param name="~marker_thickness" value="0.02" />
@@ -30,8 +30,8 @@
     <param name="~display_marker_edges_" value="true" />
     <param name="~display_marker_id_" value="true" />
 
-    <remap from="~image" to="/usb_cam/raw_image"/>
-    <remap from="~camera_info" to="/usb_cam/camera_info"/>
+<!--    <remap from="~image" to="/usb_cam/raw_image"/>-->
+<!--    <remap from="~camera_info" to="/usb_cam/camera_info"/>-->
     <remap from="~marker_array" to="/apriltags/marker_array"/>
     <remap from="~detections" to="/apriltags/detections"/>
   </node>

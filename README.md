@@ -28,7 +28,9 @@ roslaunch apriltag_detector usb_cam_apriltags.launch
 
 apriltag ros messages
 <img align="right" src="https://i.imgur.com/BzOnbkS.gif" />
+
 # aprilTAg生成
+
 官方提供的AprilTag 3系列的所有标签的图像：https://github.com/AprilRobotics/apriltag-imgs
 # 方法一，通过alltags.ps生成全部的高清AprilTag标签图片
 先安装“ ghostscript”软件包：
@@ -38,11 +40,11 @@ apriltag ros messages
 使用ps2pdf命令进行转换
 
     ps2pdf alltags.ps alltags.pdf
-    
+
 alltags.pdf文件中就是高清AprilTag标签图片。
 
 # 方法二，生成具体的二维码
  这样生成的二维码大小为7.5cm 
- 
+
     cd ~/下载/apriltag-imgs-master/tag16h5/
     convert tag16_05_00000.png -scale 5000% big.png

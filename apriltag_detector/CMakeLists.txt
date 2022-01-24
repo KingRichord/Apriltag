@@ -73,14 +73,14 @@ message(STATUS "OpenCV_LIBRARIES: ${OpenCV_LIBRARIES}")
 catkin_package()
 ###########################  头文件加载  ##################################
 include_directories(
-        include/
+        include
         ${catkin_INCLUDE_DIRS}
         ${Eigen_INCLUDE_DIRS}
         ${OpenCV_INCLUDE_DIRS}
 )
 ###########################  可执行文件生成  ################################
 add_executable(${PROJECT_NAME}
-        src/apriltags.cpp
+        src/main.cpp
         )
 ###########################  链接库文件  ################################
 target_link_libraries(${PROJECT_NAME}
