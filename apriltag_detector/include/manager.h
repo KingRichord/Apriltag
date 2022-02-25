@@ -140,7 +140,7 @@ public:
             ROS_WARN(" Pose solver failed");
         }
         // detection.observedPerimeter =
-        (float)getReprojectionError(object_pts, image_pts, cameraMatrix, distortion, rvec, tvec);
+        //(float)getReprojectionError(object_pts, image_pts, cameraMatrix, distortion, rvec, tvec);
         detection.hamming = calcFiducialArea(image_pts);
         cv::Matx33d r;
         cv::Rodrigues(rvec, r);
