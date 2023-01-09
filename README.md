@@ -26,7 +26,6 @@ roslaunch apriltag_detector usb_cam_apriltags.launch
 
 ## apriltag_msgs
 
-apriltag ros messages
 <img align="right" src="https://i.imgur.com/BzOnbkS.gif" />
 
 # aprilTAg生成
