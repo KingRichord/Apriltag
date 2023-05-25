@@ -1,7 +1,7 @@
 <img src="https://i.imgur.com/qI1Jfyl.gif"  width="60%"/>
 
 # apriltag
-apriltag的检测实现的ROS包，无需进行安装
+ROS package for apriltag's detection implementation, no installation required
 ## apriltag_mit
 
 a c++ library from http://people.csail.mit.edu/kaess/apriltags/
