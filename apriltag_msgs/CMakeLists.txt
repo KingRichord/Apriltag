@@ -5,7 +5,7 @@ find_package(catkin REQUIRED
              COMPONENTS std_msgs geometry_msgs message_generation)
 
 add_message_files(DIRECTORY
-                  msg
+        msg
                   FILES
                   Apriltag.msg
                   ApriltagArrayStamped.msg
